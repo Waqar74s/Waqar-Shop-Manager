@@ -1,0 +1,18 @@
+name: waqar_shop_manager
+description: A Shop Management App for Waqar Ali Communication & Electronics.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  mobile_scanner: ^3.5.1
+  image_picker: ^1.0.4
+  blue_thermal_printer: ^1.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
